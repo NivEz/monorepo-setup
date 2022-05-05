@@ -1,0 +1,12 @@
+{
+  "name": "monorepo-setup",
+  "version": "1.0.0",
+  "description": "Monorepo setup",
+  "main": "index.js",
+  "author": "Niv Ezra",
+  "private": true,
+  "workspaces": [
+    "lib/*",
+    "apps/*"
+  ]
+}
