@@ -5,12 +5,12 @@
   "main": "index.js",
   "author": "Niv Ezra",
   "private": true,
-  "devDependencies": {
-    "prettier": "2.6.2"
-  },
   "workspaces": {
     "packages": [
       "packages/*"
     ]
+  },
+  "devDependencies": {
+    "prettier": "2.6.2"
   }
 }
