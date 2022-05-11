@@ -8,7 +8,9 @@
   "devDependencies": {
     "prettier": "2.6.2"
   },
-  "workspaces": [
-    "lib/*"
-  ]
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
 }
